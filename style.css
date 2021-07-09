@@ -1,0 +1,123 @@
+body{
+    background-image: url("/images/pexels-photo-414102.jpeg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.maincontainer{
+    width: 90%;
+    height: 600px;
+    display: block;
+    margin-top: 5%;
+    /* margin-bottom: 20%; */
+    /* margin-right: 20%;*/
+    margin-left: 5%; 
+    padding: auto;
+    background-color: azure;
+    color: black;
+    border: 1px solid rgb(29, 29, 99);
+    border-radius: 2%;
+}
+
+.header{
+    background-color:black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    height: 45px;
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    /* float: right; */
+    align-items :right;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* justify-content: space-between; */
+}
+
+.form-select{
+    /* display: flex; */
+    /* float: right; */
+    width: auto;
+    float: right;
+    border-radius: 1%;
+    border-color: black;
+}
+
+#cityname{
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+.form-select :hover{
+    border: solid;
+}
+
+#unitselect{
+    
+    float: right;
+    border-radius: 1%;
+    border-color: black;
+}
+
+#unitselect:hover{
+    border: solid;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardmodule{
+    background-color: #fff;
+    width: 100%;
+    padding: 12px 12px 16px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.currentweathercard{
+    width: 60%;
+    margin-top: 20px;
+}
+
+.spacedcontent{
+    font-family: 'Lobster', cursive;
+    font-size: 22px;
+    border: 1px solid black;
+    border-radius: 2%;
+    margin: 5px;
+    background-color: rgb(236, 211, 199);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h5{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+.currentdetails{
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.unitcard{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 12px 16px;
+}
